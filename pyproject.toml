@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [tool.poetry]
 name = "data-visualization"
 version = "0.1.0"
@@ -21,3 +22,28 @@ flake8 = "^4.0"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+=======
+[tool.poetry]
+name = "data-visualization"
+version = "0.1.0"
+description = "A project for statistical calculations and visualizations using Python."
+authors = ["kais hajri <kais.hajri01@gmail.com>"]
+
+# Configurer l'interpréteur Python requis
+python = "^3.8"
+
+[tool.poetry.dependencies]
+numpy = "^1.21"
+scipy = "^1.7"
+matplotlib = "^3.4"
+seaborn = "^0.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+black = "^22.1"
+flake8 = "^4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+>>>>>>> origin/main
